@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q31JEVBB1R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q31JEVBB1R');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="../CSS/style.css"/>
     <title>Acceuil</title>
 </head>
 <body>
@@ -40,7 +49,7 @@
         </header>
 
         <section id="main">
-            <h2>Petit-trou-de-Nippes</h2>
+            <h2>Petit-Trou-De-Nippes</h2>
             <a href="histoire-patrimoine.html" id="button-1">Explore</a>
         </section>
     </div>
@@ -53,11 +62,13 @@
         </div>
     </footer>
 
-    <!--Script menu-->
+    <!--Script menu-nav-bar -->
     <script>
         function myFunction(x) {
           x.classList.toggle("change");
         }
+
+        //pour-sous-menu
         function deroulantFunction(y) {
           y.classList.toggle("deroule");
         }
